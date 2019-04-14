@@ -18,8 +18,61 @@
 
     <!-- Mega menu -->
     <link rel="stylesheet" type="text/css" href="css/megamenu.css">
-    <style>
+     <style>
 	
+	.speech-bubble {
+	position: relative;
+	background: #ffffff;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-bottom-color: #ffffff;
+	border-top: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-top: -20px;
+	
+}
+	
+	
+	
+	
+	
+	.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  height: 70px; /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+p.lowercase {
+  text-transform: lowercase;
+  color: #00d982;
+}
+
+p.capitalize {
+  text-transform: capitalize;
+}
+
+
+
 	li:hover
 	{
 	background-color: #00de89;
@@ -34,6 +87,7 @@
     z-index:1;
 	}
 	</style>
+   
     <!-- Theme Style -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -127,14 +181,14 @@
                                                <td></td>              
                                             </li>
                                             <li><a href="about.html"><bold>About US</bold></a></li>
-                                            <li><a href="services.html">Our Content</a></li>
+                                            <li><a href="ourcontent.html">Our Content</a></li>
                                             <li class="parent"><a href="#">Our Channels</a>
                                                 <ul class="submenu"> 
-                                                    <li><a href="product_gird.html">LIFEMANTRA</a>
+                                                    <li><a href="lifemantra.html">LIFEMANTRA</a>
                                                     </li>
                                                     <li><a href="hollywoodmasala.html">HollyWood Masala</a>
                                                     </li>
-                                                    <li><a href="product_detail.html">Fitness Studio</a>
+                                                    <li><a href="fitness_studio.html">Fitness Studio</a>
                                                     </li>                                     
                                                 </ul><!-- /.submenu -->
                                             </li>
@@ -167,39 +221,48 @@
             <ul>
                 <li data-transition="random-static" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
                     <img src="img/slides/1.png" alt="slider-image" />
-                    <div class="tp-caption sfl title-slide flat-title-slider center" data-x="center" data-y="174" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
-                        COLLECTION
+                     
+                    <div class="tp-caption sfr desc-slide center flat-desc" data-x="center" data-y="154" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">
+                        <p class="lowercase"><font style="color: #2553a1;">Making</font> y<u>our idea</u></p>
                     </div>  
-                    <div class="tp-caption sfr desc-slide center flat-desc" data-x="center" data-y="244" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">
-                        DESIGNER FURNITURE
-                    </div>    
-                    <div class="tp-caption sfl flat-button-slider" data-x="center" data-y="347" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="#">shop now</a></div>
+<div class="tp-caption sfl title-slide flat-title-slider center" data-x="center" data-y="254" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
+                        <p class="lowercase"><font style="color: #2553a1;">happen!</font></p>
+                    </div> 					
+                    <div class="tp-caption sfl flat-button-slider" bgcolor="#2553a1" data-x="420" data-y="347" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="#">Get Started</a></div>
+					<div class="tp-caption sfl flat-button-slider" data-x="620" data-y="347" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="#">Our Project</a></div>
                 </li>
 
-                <li data-transition="random-static" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
-                    <img src="img/slides/2.png" alt="slider-image" />
-                    <div class="tp-caption sfl title-slide flat-title-slider center" data-x="center" data-y="174" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
-                        Hello world
+                 
+				 <li data-transition="random-static" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
+                    <img src="img/slides/1.png" alt="slider-image" />
+                     
+                    <div class="tp-caption sfr desc-slide center flat-desc" data-x="center" data-y="154" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">
+                       <p class="lowercase"><font style="color: #2553a1;">Making</font> y<u>our idea</u></p>
                     </div>  
-                    <div class="tp-caption sfr desc-slide center flat-desc" data-x="center" data-y="244" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">
-                        DESIGNER FURNITURE
-                    </div>    
-                    <div class="tp-caption sfl flat-button-slider" data-x="center" data-y="347" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="#">shop now</a></div>
+<div class="tp-caption sfl title-slide flat-title-slider center" data-x="center" data-y="254" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
+                       <p class="lowercase"><font style="color: #2553a1;">happen!</font></p>
+                    </div> 					
+                    <div class="tp-caption sfl flat-button-slider" bgcolor="#2553a1" data-x="420" data-y="347" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="#">Get Started</a></div>
+					<div class="tp-caption sfl flat-button-slider" data-x="620" data-y="347" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="#">Our Project</a></div>
                 </li>
-
-                <li data-transition="random-static" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
-                    <img src="img/slides/1.jpg" alt="slider-image" />
-                    <div class="tp-caption sfl title-slide flat-title-slider center" data-x="center" data-y="174" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
-                        COLLECTION 3
+ 
+ 
+ <li data-transition="random-static" data-slotamount="7" data-masterspeed="1000" data-saveperformance="on">
+                    <img src="img/slides/1.png" alt="slider-image" />
+                     
+                    <div class="tp-caption sfr desc-slide center flat-desc" data-x="center" data-y="154" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">
+         <p class="lowercase"><font style="color: #2553a1;">Making</font> y<u>our idea</u></p>
                     </div>  
-                    <div class="tp-caption sfr desc-slide center flat-desc" data-x="center" data-y="244" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">
-                        DESIGNER FURNITURE
-                    </div>    
-                    <div class="tp-caption sfl flat-button-slider" data-x="center" data-y="347" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="#">shop now</a></div>
+<div class="tp-caption sfl title-slide flat-title-slider center" data-x="center" data-y="254" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
+                        <p class="lowercase"><font style="color: #2553a1;">happen!</font></p>
+                    </div> 					
+                    <div class="tp-caption sfl flat-button-slider" bgcolor="#2553a1" data-x="420" data-y="347" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="#">Get Started</a></div>
+					<div class="tp-caption sfl flat-button-slider" data-x="620" data-y="347" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="#">Our Project</a></div>
                 </li>
             </ul>
         </div>
     </div> 
+	
 <!--- Slider----->
 <!-- /.flat-new-arrivals -->
 
