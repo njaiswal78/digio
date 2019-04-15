@@ -402,7 +402,7 @@ ol, ul {
 }
 
 .flat-bg-eee {
-	background: #eeeeee;
+	background: #eac449;
 }
 
 .flat-bg-fff {
@@ -3993,7 +3993,7 @@ ul.flat-infomation li.email:before {
 }
 
 .flat-top-title.flat-bg-eee:after {
-	border-top: 33px solid #eee;
+	border-top: 33px solid #ffffff;
 }
 
 .flat-top-title.flat-bg-fff:after {
@@ -4005,7 +4005,7 @@ ul.flat-infomation li.email:before {
 }
 
 .flat-our-products .owl-carousel .owl-dot {
-	width: 25px;
+	width: 0px;
 }
 
 .flat-our-products .item {
@@ -4206,10 +4206,12 @@ ul.flat-infomation li.email:before {
 
 .flat-our-products.flat-row {
 	padding-bottom: 4px;
+	
 }
 
 .flat-top-title.v2 {
 	margin-bottom: 10px;
+	color: #eac449;
 }
 
 .flat-top-title.v2 h3{
