@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="css/megamenu.css">
     <style>
 	
+	
 	.speech-bubble {
 	position: relative;
 	background: #ffffff;
@@ -41,14 +42,28 @@
 	margin-top: -20px;
 	
 }
-	
-	
+
+
+logo{
+
+}
 	
 	.column {
   float: left;
   width: 33.33%;
-  padding: 10px;
-  height: 60px; /* Should be removed. Only for demonstration */
+  padding: 15px;
+  height: 70px; /* Should be removed. Only for demonstration */
+   transition: transform .2s;
+}
+
+.col {
+  float: left;
+  width: 50%;
+  padding: 15px;
+  font-family: Lato;
+  font-size: 20px;
+  height: 70px; /* Should be removed. Only for demonstration */
+   transition: transform .2s;
 }
 
 
@@ -58,6 +73,38 @@
   display: table;
   clear: both;
 }
+
+
+p.lowercase {
+  text-transform: lowercase;
+  color: #00d982;
+}
+
+text.capitalize {
+  text-transform: capitalize;
+}
+
+
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s ease-in-out;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.column:hover {
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3); 
+  transform-color: #00de89;
+}
+
+
+
+
+
 
 
 	li:hover
@@ -104,38 +151,22 @@
 </section>
     
 
-<div class="middle-educationsls-nav py-2">
-			<div class="container">
-				<div class="row">
-					<div  class="logo font-italic font-weight-bold col-lg-4 text-lg-left text-center">
-						<a class="logo font-italic font-weight-bold col-lg-4 text-lg-left text-center" href="index.html">LIFEMANTRA</a><br>
-					</div>
+             <div class="middle-educationsls-nav py-2">
+		           	<div class="container">
+			        	<div class="row">
+						<div class="col">
+				         	<div  class="logo font-italic font-weight-bold col-lg-4 text-lg-left text-center">
+					           	<img src="images/1.png"><a href="index.html"></a>
+					                   </div>
+									   </div>
+									   
+									   <div class="col" style="margin-bottom: 20px; padding-bottom: 18px; margin-top: -10px;">
+									   <p><h4>content.jop@gmail.com <vr>|</vr> 011 435820</h4></p> 
+										</div>
+										
 					<!-- <a class="logo font-italic font-weight-bold col-lg-4 text-lg-left text-center" href="index.html">LIFEMANTRA</a><br> -->
 					
-					<div class="col-lg-8 right-info-edulearns mt-lg-0 mt-sm-3 mt-1">
-						<div class="row">
-							<div class="col-sm-4 nav-middle">
-								<i class="far fa-envelope-open text-center mr-md-4 mr-sm-2 mr-4"></i>
-								<div class="edulearn-addresmk">
-									<p>
-										<!-- <span class="font-weight-bold text-dark">Mail Us</span> -->
-										<a href="#">content.jop@gmail.com</a>
-									</p>
-								</div>
-							</div>
-							<div class="col-sm-4 col-6 nav-middle mt-sm-0 mt-2">
-								<i class="fas fa-phone-volume text-center mr-md-4 mr-sm-2 mr-4"></i>
-								<div class="edulearn-addresmk">
-									<p>
-										<!-- <span class="font-weight-bold text-dark">Call Us</span> -->
-										011 4732 
-									</p>
-								</div>
-							</div>
-							<!-- <div class="col-sm-4 col-6 top-login-butt text-right mt-sm-2">
-								<a href="login.html" class="button-head-moeducations text-white">Login</a>
-							</div> -->
-						</div>
+					
 					</div>
 
 
@@ -166,15 +197,15 @@
 											<li>
                                                <td></td>              
                                             </li>
-                                            <li><a href="about.html"><bold>About US</bold></a></li>
-                                            <li><a href="services.html">Our Content</a></li>
+                                            < <li><a href="about.html"><bold>About US</bold></a></li>
+                                            <li><a href="ourcontent.html">Our Content</a></li>
                                             <li class="parent"><a href="#">Our Channels</a>
                                                 <ul class="submenu"> 
-                                                    <li><a href="product_gird.html">LIFEMANTRA</a>
+                                                    <li><a href="lifemantra.html">LIFEMANTRA</a>
                                                     </li>
-                                                    <li><a href="product_list.html">HollyWood Masala</a>
+                                                    <li><a href="hollywoodmasala.html">HollyWood Masala</a>
                                                     </li>
-                                                    <li><a href="product_detail.html">Fitness Studio</a>
+                                                    <li><a href="fitness_studio.html">Fitness Studio</a>
                                                     </li>                                     
                                                 </ul><!-- /.submenu -->
                                             </li>
@@ -201,6 +232,9 @@
             </div>
         </div> <!-- /.flat-header-bottom -->
     </header> <!-- /.flat-header -->
+	
+	
+	
 <!-- Slider -->
     <div class="tp-banner-container" id="home">
         <div class="tp-banner" >
@@ -209,13 +243,13 @@
                     <img src="img/slides/1.png" alt="slider-image" />
                      
                     <div class="tp-caption sfr desc-slide center flat-desc" data-x="center" data-y="154" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">
-                        Making your idea
+                        <p class="lowercase"><font style="color: #2553a1;"><text class="capitalize">Making</text></font> y<u>our idea</u></p>
                     </div>  
-<div class="tp-caption sfl title-slide flat-title-slider center" data-x="center" data-y="244" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
-                        happen!
+<div class="tp-caption sfl title-slide flat-title-slider center" data-x="center" data-y="254" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
+                        <p class="lowercase"><font style="color: #2553a1;">happen!</font></p>
                     </div> 					
                     <div class="tp-caption sfl flat-button-slider" data-x="420" data-y="347" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="#">Get Started</a></div>
-					<div class="tp-caption sfl flat-button-slider" data-x="620" data-y="347" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="#">Our Project</a></div>
+					<div class="tp-caption sfl flat-button-slider1" data-x="620" data-y="347" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="#">Our Project</a></div>
                 </li>
 
                  
@@ -223,13 +257,13 @@
                     <img src="img/slides/1.png" alt="slider-image" />
                      
                     <div class="tp-caption sfr desc-slide center flat-desc" data-x="center" data-y="154" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">
-                        Making your idea
+                        <p class="lowercase"><font style="color: #2553a1;"><text class="capitalize">Making</text></font> y<u>our idea</u></p>
                     </div>  
-<div class="tp-caption sfl title-slide flat-title-slider center" data-x="center" data-y="244" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
-                        happen!
+<div class="tp-caption sfl title-slide flat-title-slider center" data-x="center" data-y="254" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
+                       <p class="lowercase"><font style="color: #2553a1;">happen!</font></p>
                     </div> 					
                     <div class="tp-caption sfl flat-button-slider" data-x="420" data-y="347" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="#">Get Started</a></div>
-					<div class="tp-caption sfl flat-button-slider" data-x="620" data-y="347" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="#">Our Project</a></div>
+					<div class="tp-caption sfl flat-button-slider1" data-x="620" data-y="347" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="#">Our Project</a></div>
                 </li>
  
  
@@ -237,18 +271,18 @@
                     <img src="img/slides/1.png" alt="slider-image" />
                      
                     <div class="tp-caption sfr desc-slide center flat-desc" data-x="center" data-y="154" data-speed="1000" data-start="1500" data-easing="Power3.easeInOut">
-                        Making your idea
+          <p class="lowercase"><font style="color: #2553a1;"><text class="capitalize">Making</text></font> y<u>our idea</u></p>
                     </div>  
-<div class="tp-caption sfl title-slide flat-title-slider center" data-x="center" data-y="244" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
-                        happen!
+<div class="tp-caption sfl title-slide flat-title-slider center" data-x="center" data-y="254" data-speed="1000" data-start="1000" data-easing="Power3.easeInOut">
+                        <p class="lowercase"><font style="color: #2553a1;">happen!</font></p>
                     </div> 					
                     <div class="tp-caption sfl flat-button-slider" data-x="420" data-y="347" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="#">Get Started</a></div>
-					<div class="tp-caption sfl flat-button-slider" data-x="620" data-y="347" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="#">Our Project</a></div>
+					<div class="tp-caption sfl flat-button-slider1" data-x="620" data-y="347" data-speed="1000" data-start="2000" data-easing="Power3.easeInOut"><a href="#">Our Project</a></div>
                 </li>
             </ul>
         </div>
     </div> 
-<!--- Slider----->
+	<!--- Slider----->
 <!-- /.flat-new-arrivals -->
 
    
