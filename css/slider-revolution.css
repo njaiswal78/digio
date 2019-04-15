@@ -2505,19 +2505,45 @@ zoom: 1;
 	font-family: "Poppins", sans-serif;
 	font-size: 18px;
     font-weight: 600;
-    border: 1px solid #fff;
+    border: 1px solid #2553a1;
+	background-color: #2553a1;
     padding: 15px 30px;
     margin-top: 9px;
     text-transform: uppercase;
 }
 
 .tp-caption.flat-button-slider a {
-	color: #fff;
+	color: #ffffff;
 }
 
 .tp-caption.flat-button-slider a:hover {
-	color: #92c841;
+	color: #ffffff;
 }
+/* Button slider */
+
+/* Button2 slider */
+
+.tp-caption.flat-button-slider1 {
+	font-family: "Poppins", sans-serif;
+	font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #00d982;
+	background-color: #00d982;
+    padding: 15px 30px;
+    margin-top: 9px;
+    text-transform: uppercase;
+}
+
+.tp-caption.flat-button-slider1 a {
+	color: #ffffff;
+}
+
+.tp-caption.flat-button-slider1 a:hover {
+	color: #ffffff;
+}
+/* Button2 slider */
+
+
 
 /* Slider style2 */
 .tp-caption.title-slide {
