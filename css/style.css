@@ -3762,10 +3762,10 @@ ul.flat-infomation li.email:before {
 -------------------------------------------------------------- */
 .flat-bottom {
 	font-family: 'Source Sans Pro',sans-serif;
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 30px;
-	color: #fff;
-	background: #4b5359;
+	color: #000;
+	background: #e8e8e8;
 	padding: 10px 0;
 }
 
