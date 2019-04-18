@@ -791,7 +791,7 @@
 /* About
 -------------------------------------------------------------- */
 .wrap-progress-home7 {
-    padding: 86px 80px 70px;
+    padding: 66px 56px 70px;
 }
 
 .wrap-progress-home7 .title-progress {
@@ -803,9 +803,9 @@
 }
 
 .wrap-progress-home7 p {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 14px;
-    line-height: 28px;
+    line-height: 22px;
     color: #363636;
 }
 
