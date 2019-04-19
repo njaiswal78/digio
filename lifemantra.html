@@ -21,10 +21,13 @@
     <style>
 	
 	
+	 <style>
+	
+	
 	.speech-bubble {
 	position: relative;
 	background: #ffffff;
-	border-radius: .4em;
+	border-radius: .5em;
 }
 
 .speech-bubble:after {
@@ -38,8 +41,8 @@
 	border-bottom-color: #ffffff;
 	border-top: 0;
 	border-left: 0;
-	margin-left: -10px;
-	margin-top: -20px;
+	margin-left: -30px;
+	margin-top: -30px;
 	
 }
 
@@ -59,13 +62,23 @@ logo{
 .col {
   float: left;
   width: 50%;
-  padding: 15px;
+  padding: 18px;
   font-family: Lato;
   font-size: 20px;
   height: 70px; /* Should be removed. Only for demonstration */
    transition: transform .2s;
 }
 
+.col2 {
+  float: left;
+  width: 50%;
+  padding-top: 5px;
+  padding-bottom:5 px;
+  font-family: Lato;
+  font-size: 20px;
+  height: 80px; /* Should be removed. Only for demonstration */
+   transition: transform .2s;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -111,16 +124,65 @@ text.capitalize {
 	{
 	background-color: #00de89;
 	}
+	
 	.overlay 
 	{
     position:absolute;
     font-family: Calibri;
 	Font-size: 36px;
-    top:130px;
+    top:220px;
     left:160px;
     z-index:1;
 	}
-		</style>
+	
+	
+	
+	@media screen and (max-width:500px){
+.overlay1{
+margin-left:-20%;
+margin-top:-15%;
+}
+.overlay p{
+font-size:20px;
+line-height:90%;
+margin-top:0px;
+text-align:left;
+}
+#box1{
+width:100%
+}
+#box2{
+width:100%;
+}
+}
+
+@media screen and (min-width:501px){
+.overlay{
+margin-left:20%;
+margin-top:5%;
+}
+#p1{
+font-size:50px;
+}
+#p2{
+font-size:20px;
+}
+#box1{
+width:50%
+}
+#box2{
+width:50%;
+}
+}
+
+
+
+
+	
+	
+	
+	</style>
+   
     <!-- Theme Style -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -150,18 +212,18 @@ text.capitalize {
     </div>
 </section>
     
-   <div class="middle-educationsls-nav py-2">
+
+             <div class="middle-educationsls-nav py-2">
 		           	<div class="container">
 			        	<div class="row">
-						<div class="col">
+						<div class="col2">
 				         	<div  class="logo font-italic font-weight-bold col-lg-4 text-lg-left text-center">
 					           	<img src="images/1.png"><a href="index.html"></a>
 					                   </div>
 									   </div>
 									   
 									   <div class="col">
-									   <p style="margin-top:10px;font-weight:bold;color:#00a4b0;margin-right:-10%;border:0px solid black;padding-left:5%;">content.jop@gmail.com <vr>|</vr> +91 9619213241</p> 
-										</div>
+			<p style="margin-top:8px;font-weight:bold;color:#00a4b0;margin-right:-15%;border:0px solid black;padding-left:-5%;">content@gmail.com <vr>|</vr> +91 9619213241</p>		</div>
 										
 					<!-- <a class="logo font-italic font-weight-bold col-lg-4 text-lg-left text-center" href="index.html">LIFEMANTRA</a><br> -->
 					
@@ -177,8 +239,10 @@ text.capitalize {
 
 
 
-
      <!-- /.flat-header-top -->
+	 
+	 
+	 
 
         <div class="flat-header-bottom">
             <div class="container">
