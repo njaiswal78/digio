@@ -5,7 +5,7 @@
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>JOP Blog</title>
+    <title>Blog</title>
     <meta name='keywords' content='business, clean, twitter, bootstrap 3, responsive'>
     <meta name='description' content="Colores is a professional multipurpose template for any business, portfolio or blog website.">
     <meta name='author' content='#'>
@@ -17,8 +17,12 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" >
 
     <!-- Mega menu -->
+	
     <link rel="stylesheet" type="text/css" href="css/megamenu.css">
+	
     <style>
+	
+	
 	.speech-bubble {
 	position: relative;
 	background: #ffffff;
@@ -42,6 +46,7 @@
 }
 
 
+
 logo{
 
 }
@@ -57,13 +62,23 @@ logo{
 .col {
   float: left;
   width: 50%;
-  padding: 15px;
+  padding: 18px;
   font-family: Lato;
   font-size: 20px;
   height: 70px; /* Should be removed. Only for demonstration */
    transition: transform .2s;
 }
 
+.col2 {
+  float: left;
+  width: 50%;
+  padding-top: 5px;
+  padding-bottom:5 px;
+  font-family: Lato;
+  font-size: 20px;
+  height: 80px; /* Should be removed. Only for demonstration */
+   transition: transform .2s;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -109,27 +124,70 @@ text.capitalize {
 	{
 	background-color: #00de89;
 	}
+	
 	.overlay 
 	{
     position:absolute;
     font-family: Calibri;
 	Font-size: 36px;
-    top:130px;
+    top:220px;
     left:160px;
     z-index:1;
 	}
 	
+	
+	
+	@media screen and (max-width:500px){
+.overlay1{
+margin-left:-20%;
+margin-top:-15%;
+}
+.overlay p{
+font-size:20px;
+line-height:90%;
+margin-top:0px;
+text-align:left;
+}
+#box1{
+width:100%
+}
+#box2{
+width:100%;
+}
+}
+
+@media screen and (min-width:501px){
+.overlay{
+margin-left:20%;
+margin-top:5%;
+}
+#p1{
+font-size:50px;
+}
+#p2{
+font-size:20px;
+}
+#box1{
+width:50%
+}
+#box2{
+width:50%;
+}
+}
+
+
+
+
+	
+	
+	
 	</style>
+   
     <!-- Theme Style -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!-- Colors -->
     <link rel="stylesheet" type="text/css" href="css/colors/color1.css" id="colors">
-
-
-<!-- Style1-Css -->
-	<link rel="stylesheet" href="css/style1.css" type="text/css" media="all" />	
-
 
 
     <!-- Responsive Style -->
@@ -154,21 +212,18 @@ text.capitalize {
     </div>
 </section>
     
-   <div class="middle-educationsls-nav py-2">
+
+             <div class="middle-educationsls-nav py-2">
 		           	<div class="container">
 			        	<div class="row">
-						<div class="col">
+						<div class="col2">
 				         	<div  class="logo font-italic font-weight-bold col-lg-4 text-lg-left text-center">
 					           	<img src="images/1.png"><a href="index.html"></a>
 					                   </div>
 									   </div>
 									   
-
 									   <div class="col">
-									   <p style="margin-top:10px;font-weight:bold;color:#00a4b0;margin-right:-10%;border:0px solid black;padding-left:5%;">content.jop@gmail.com <vr>|</vr> +91 9619213241</p> 
-										</div>
-
-									   
+			<p style="margin-top:8px;font-weight:bold;color:#00a4b0;margin-right:-15%;border:0px solid black;padding-left:-5%;">content@gmail.com <vr>|</vr> +91 9619213241</p>		</div>
 										
 					<!-- <a class="logo font-italic font-weight-bold col-lg-4 text-lg-left text-center" href="index.html">LIFEMANTRA</a><br> -->
 					
@@ -183,8 +238,11 @@ text.capitalize {
 		</div>
 
 
-		<!-- /.flat-header-top -->
 
+     <!-- /.flat-header-top -->
+	 
+	 
+	 
         <div class="flat-header-bottom">
             <div class="container">
                 <div class="row">
@@ -206,12 +264,12 @@ text.capitalize {
                                             <li><a href="ourcontent.html">Our Content</a></li>
                                             <li class="parent"><a href="#">Our Channels</a>
                                                 <ul class="submenu"> 
-                                                    <li><a href="lifemantra.html">LIFEMANTRA</a>
+                                                    <li><a href="lifemantra.html"><font color="black">LIFEMANTRA</font></a>
                                                     </li>
-                                                    <li><a href="hollywoodmasala.html">HollyWood Masala</a>
+                                                    <li><a href="hollywoodmasala.html"><font color="black">HollyWood Masala</font></a>
                                                     </li>
-                                                    <li><a href="fitness_studio.html">Fitness Studio</a>
-                                                    </li>                                     
+                                                    <li><a href="fitness_studio.html"><font color="black">Fitness Studio</font></a>
+                                                    </li>                                    
                                                 </ul><!-- /.submenu -->
                                             </li>
                                             
@@ -312,7 +370,7 @@ opacity:0.3;
 </style>
 			
 	<!--//gallery-->  
-		<div class="row" style="width 100%; height: auto; margin-left: 30px; margin-right: 30px;">
+		<div class="row" style="width 100%; height: auto; margin-left: 2px; margin-right: 2px;">
 		   
           <div style="width 50%; float: left;" class="img_wrap">
 		  
@@ -336,7 +394,7 @@ opacity:0.3;
 		
 		
 		<div class="row">
-		<div class="row img_wrap" style="width 100%; height: auto; margin-left: 40px; margin-right: 40px;">
+		<div class="row img_wrap" style="width 100%; height: auto; margin-left: 15px; margin-right: 15px;">
 		
 		<img src="images/am4.jpg" alt=" " class="img-fluid img_img" />
 		     <p class="img_description">I am German Shepherd</p><br>
@@ -349,7 +407,7 @@ opacity:0.3;
 		<br>
 		
 		
-		<div class="row" style="width 100%; height: auto; margin-left: 30px; margin-right: 30px;">
+		<div class="row" style="width 100%; height: auto; margin-left: 2px; margin-right: 2px;">
 		   
           <div style="width 50%; float: left;" class="img_wrap">
 		    <img src="images/am1.jpg" alt=" " class="img-fluid img_img" />
@@ -411,18 +469,18 @@ opacity:0.3;
 
 
 
-
+<!-- /.flat-bottom -->
         <div class="flat-bottom">
             <div class="container">
                 <div class="row">
                    
 
-                    <div class="col-md-6">
+            <div class="col-md-6">
                         <div class="flat-cash flat-right">
-                            <a href="#">About Lifemantra</a> &nbsp &nbsp |
-                            <a href="#">Career</a>&nbsp &nbsp |
-                            <a href="#">Help</a>&nbsp &nbsp |
-                            <a href="#">Shipping</a> &nbsp &nbsp |
+                            <a href="index.html"><font color="black">About Lifemantra</font></a> &nbsp &nbsp <font color="white">|</font>
+                            <a href="ourcontent.html"><font color="black">Our Content</font></a>&nbsp &nbsp <font color="white">|</font>
+                            <a href="blog.html"><font color="black">Blog</font></a>&nbsp &nbsp <font color="white">|</font>
+                            <a href="contact.html"><font color="black">ContactUs</font></a> &nbsp &nbsp <font color="white">|</font>
                         </div> <!-- /.flat-cash -->
                     </div>
 					
